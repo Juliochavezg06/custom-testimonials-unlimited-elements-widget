@@ -1,0 +1,118 @@
+{
+    "addontype": "elementor",
+    "cattitle": "Custom Widget",
+    "name": "testimoniales_elementor",
+    "alias": "testimoniales",
+    "title": "Testimoniales",
+    "description": "",
+    "config": {
+        "options": {
+            "enable_items": "true",
+            "items_section_title": "",
+            "items_section_heading": "",
+            "items_title_field": "",
+            "path_assets": "",
+            "js_as_module": false,
+            "addon_icon": "eicon-testimonial-carousel",
+            "dynamic_addon": "false",
+            "dynamic_post_enable_customfields": "false",
+            "dynamic_post_enable_category": "false",
+            "description": "",
+            "link_resource": "",
+            "link_preview": "",
+            "show_small_icon": "true",
+            "preview_size_unite_selected_text": "Full Size",
+            "preview_size": "full",
+            "preview_custom_width": "",
+            "preview_bgcol": "#ffffff",
+            "special": "",
+            "special_data": ""
+        },
+        "params": [],
+        "params_items": [
+            {
+                "type": "uc_textarea",
+                "title": "Blockquote",
+                "name": "blockquote",
+                "description": "",
+                "enable_condition": false,
+                "condition_attribute": null,
+                "condition_operator": "equal",
+                "condition_value": [],
+                "condition_attribute2": null,
+                "condition_operator2": "equal",
+                "condition_value2": null,
+                "label_block": false,
+                "tabname": "",
+                "default_value": "Lorem ipsum dolor sit amet consectetur. In faucibus at diam nulla ut enim. Sit id et imperdiet phasellus diam pellentesque.",
+                "font_editable": false
+            },
+            {
+                "type": "uc_image",
+                "title": "Image",
+                "name": "image",
+                "description": "",
+                "enable_condition": false,
+                "condition_attribute": null,
+                "condition_operator": "equal",
+                "condition_value": [],
+                "condition_attribute2": null,
+                "condition_operator2": "equal",
+                "condition_value2": null,
+                "label_block": false,
+                "tabname": "",
+                "media_type": "image",
+                "default_value": "",
+                "add_image_sizes": false,
+                "default_value_json": ""
+            },
+            {
+                "type": "uc_textfield",
+                "title": "Title",
+                "name": "title",
+                "description": "",
+                "default_value": "",
+                "limited_edit": true
+            }
+        ],
+        "includes": {
+            "js": [
+                {
+                    "url": "slick\/slick.min.js",
+                    "condition": null,
+                    "params": null
+                }
+            ],
+            "jslib": [
+                "jquery"
+            ],
+            "css": [
+                {
+                    "url": "slick\/slick.min.css",
+                    "condition": null,
+                    "params": null
+                },
+                {
+                    "url": "slick\/slick-theme.css",
+                    "condition": null,
+                    "params": null
+                }
+            ]
+        },
+        "variables_item": [],
+        "variables_main": [],
+        "params_cats": [
+            {
+                "id": "cat_general_general",
+                "title": "General",
+                "tab": "content"
+            }
+        ]
+    },
+    "templates": [
+        "html",
+        "html_item",
+        "css",
+        "js"
+    ]
+}
